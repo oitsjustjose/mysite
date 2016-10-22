@@ -3,3 +3,7 @@
   background-size:cover;
   background-position:center;
 }
+.cardsize{
+  max-height: 200px;
+  max-width: 500px;
+}
