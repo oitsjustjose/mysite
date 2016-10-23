@@ -12,52 +12,68 @@
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
   </head>
-  <body>
-    <!-- Status bar overlay for fullscreen mode-->
-        <div class="views">
-      <!-- Your main view, should have "view-main" class-->
-      <div class="view view-main">
-        <!-- Top Navbar-->
-        <div class="navbar">
-          <div class="navbar-inner">
-            <!-- We have home navbar without left link-->
-            <div class="center sliding">Alay Patel</div>
+
+<body>
+<div class = "views">
+  <div class = "view view-main">
+    <div class = "pages">
+
+      <div data-page = "home" class = "page navbar-fixed">
+        <div class = "navbar">
+          <div class = "navbar-inner">
+            <div class = "Center sliding hfont">Home</div>
           </div>
         </div>
-        <div class="feature">
-          <br><br>
-        <center><img class="feature-image" src="https://github.com/alaypatel030/mysite/blob/master/Sample_Images/IMG_20161022_181649.jpg?raw=true" width=100% height=auto></img>
       </div>
-        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
-        <div class="pages navbar-through toolbar-through">
-          <!-- Page, data-page contains page name-->
-          <div data-page="index" class="page">
-            <!-- Scrollable page content-->
-            <div class="page-content">
-              <div class="content-block-inner">
-                <center>Welcome To My Site. <br>Site is currenly under construction.<br>Feel Free to send ideas via instagram by accessing the link below.</div>
-              <div class="content-block">
+      <br><br><br>
+      <div class="page-content">
+        <div class="card" >
+          <img src="https://github.com/alaypatel030/mysite/blob/master/Sample_Images/IMG_20161022_181649.jpg?raw=true" width="100%"></img>
+        </div>
+          <div class="card">
+            <div class="card-header hfont">Welcome To My Site</div>
+            <center>
+              <p class="hfont1">Site is currenly under construction</p>
+              <p class="hfont3">Feel Free to send ideas via instagram by accessing my social media link below.<p><br>
+        </center>
+      </div>
 
+      <div class="card">
+        <div class="list-block">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/alaypatel030/" class="link external" target="_blank">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <img src="https://github.com/alaypatel030/mysite/blob/master/Sample_Images/images.png?raw=true" width="30px" hight="30px"></img>
+                    <div class="item-title social-label">Instagram</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li><a href="https://www.facebook.com/alaypatel030" class="link external" target="_blank">
+              <div class="item-content">
+                <div class="item-inner">
+                    <img src="https://github.com/alaypatel030/mysite/blob/master/Sample_Images/facebook.png?raw=true" width="28px" hight="28px"></img>
+                  <div class="item-title social-label">Facebook</div>
+                </div>
               </div>
-              <div class="list-block">
-                <ul>
-                  <li><a href="https://www.instagram.com/alaypatel030/" class="link external" target="_blank">
-                      <div class="item-content">
-                        <div class="item-inner">
-                          <div class="item-title">Instagram</div>
-                        </div>
-                      </div></a></li>
-                  <li><a href="https://www.facebook.com/alaypatel030" class="link external" target="_blank">
-                      <div class="item-content">
-                        <div class="item-inner">
-                          <div class="item-title">Facebook</div>
-                        </div>
-                      </div></a></li>
-                </ul>
-              </div>
-            </div>
-      </div>
+            </a>
+          </li>
+        </ul>
+        </div>
     </div>
+
+    <div class="list-block">
+      <br>
+    </div>
+
+  </div>
+  </div>
+</div>
+
+
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <!-- Path to your app js-->
