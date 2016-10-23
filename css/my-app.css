@@ -9,3 +9,40 @@
   -ms-filter: blur(1px);
   filter: blur(1px);*/
 }
+
+.hfont{
+font-family:"Verdana";
+color:#305ca3;
+font-size: 15pt;
+}
+
+.hfont1{
+font-family:"Verdana";
+font-size: 12pt;
+}
+
+.hfont3{
+font-family:"Verdana";
+color:#ed4444;
+font-size: 11pt;
+}
+
+.col-5{
+  height:40vw;
+  background-size:cover;
+  background-position:center;
+}
+
+.col-50{
+  botto
+  background: #fff;
+  position: relative;
+  border-radius: 2px;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
+}
+
+.social-label{
+  left:-500px;  
+  color: black;
+}
