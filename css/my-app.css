@@ -1,0 +1,27 @@
+
+.hfont{
+font-family:"Verdana";
+color:black;
+font-size: 15pt;
+}
+
+.hfont1{
+font-family:"Verdana";
+font-size: 12pt;
+}
+
+.hfont3{
+font-family:"Verdana";
+color:black;
+font-size: 11pt;
+}
+
+.col-5{
+  height:40vw;
+  background-size:cover;
+  background-position:center;
+}
+
+.social-label{
+  color: black;
+}
