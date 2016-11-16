@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <link rel="icon" type="image/png" href="https://github.com/alaypatel030/mysite/blob/master/img/Logo.png?raw=true">
     <title>Alay Patel</title>
     <!-- Path to Framework7 Library CSS-->
     <link rel="stylesheet" href="css/framework7.ios.min.css">
@@ -14,77 +15,85 @@
   </head>
 <body>
 
+<!--Statusbar overlay on right add options-->
   <div class="statusbar-overlay"></div>
   <div class="panel-overlay"></div>
   <div class="panel panel-right panel-reveal">
     <div class="content-block">
 
-      <a href="#" class="button button-raised button-fill  external">Will Be Added</a>
+<!--buttons in the statusbar overlay-->
+      <a href="index.html" class="button button-raised button-fill external">Home</a><br>
+      <a href="achievement.html" class="button button-raised button-fill  external">2016 Achievement</a><br>
+      <a href="#"   class="button button-raised button-fill external">Will Be Added</a><br>
     </div>
   </div>
 
-<div class = "views">
-  <div class = "view view-main">
-    <div class = "pages">
+<!--Status bar-->
+  <div class="views">
+    <div class="view view-main">
+        <div class="pages">
+            <div data-page="home" class="page navbar-fixed toolbar-fixed">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="right">
+                          <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+                        </div>
+                          <div class="center">Home</div>
+                            <div class="right"></div>
+                   </div>
+                </div>
 
-      <div data-page = "home" class = "page navbar-fixed">
-        <div class = "navbar">
-          <div class = "navbar-inner">
-            <div class="right">
-              <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
-            </div>
-            <div class = "Center sliding hfont">Home</div>
-          </div>
-        </div>
-      </div>
-      <br><br><br>
-      <div class="page-content">
+                <!--Page content-->
+                <div class="page-content hide-bars-on-scroll">
+                      <img src="https://github.com/alaypatel030/mysite/blob/master/img/my_pic.jpg?raw=true" width="100%" height="auto"></img>
 
-        <div class="card" >
-          <img src="https://github.com/alaypatel030/mysite/blob/master/img/my_pic.jpg?raw=true" width="100%"></img>
-        </div>
-          <div class="card">
-            <div class="card-header hfont">Welcome To My Site</div>
-            <center>
-              <p class="hfont1">Site is currenly under construction</p>
-              <p class="hfont3">Feel Free to send ideas via instagram by accessing my social media link below.<p><br>
-        </center>
-      </div>
-
-      <div class="card">
-        <div class="list-block">
-          <ul>
-            <li>
-              <a href="https://www.instagram.com/alaypatel030/" class="link external" target="_blank">
-                <div class="item-content">
-                  <div class="item-inner">
-                    <img src="https://github.com/alaypatel030/mysite/blob/master/img/images.png?raw=true" width="30px" hight="30px"></img>
-                    <div class="item-title social-label">Instagram</div>
+                    <!--First Card-->
+                    <div class="card">
+                      <div class="card-header hfont">Welcome To My Site</div>
+                      <center>
+                        <p class="hfont1">Site is currenly under construction</p>
+                        <p class="hfont3">Feel Free to send ideas via instagram by accessing my social media link below.<p><br>
+                        </center>
                   </div>
-                </div>
-              </a>
-            </li>
 
-            <li><a href="https://www.facebook.com/alaypatel030" class="link external" target="_blank">
-              <div class="item-content">
-                <div class="item-inner">
-                  <img src="https://github.com/alaypatel030/mysite/blob/master/img/facebook.png?raw=true" width="30px" hight="30px"></img>
-                <div class="item-title social-label">Facebook</div>
-                </div>
+                  <!--Second Card with facebook and instagram link-->
+                  <div class="card">
+                          <div class="list-block">
+                            <ul>
+                              <li>
+                                <a href="https://www.instagram.com/alaypatel030/" class="link external" target="_blank">
+                                  <div class="item-content">
+                                    <div class="item-inner">
+                                      <img src="https://github.com/alaypatel030/mysite/blob/master/img/images.png?raw=true" width="30px" hight="30px"></img>
+                                      <div class="item-title social-label">Instagram</div>
+                                    </div>
+                                  </div>
+                                </a>
+                              </li>
+
+                              <li><a href="https://www.facebook.com/alaypatel030" class="link external" target="_blank">
+                                <div class="item-content">
+                                  <div class="item-inner">
+                                    <img src="https://github.com/alaypatel030/mysite/blob/master/img/facebook.png?raw=true" width="30px" hight="30px"></img>
+                                  <div class="item-title social-label">Facebook</div>
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+                          </ul>
+                          </div>
+                      </div>
+
+                <!--empty block-->
+                <div class="list-block">
+                <br><br><br>
               </div>
-            </a>
-          </li>
-        </ul>
+
         </div>
+      </div>
     </div>
-
-    <div class="list-block">
-      <br>
-    </div>
-
   </div>
-  </div>
-</div>
+
 
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="js/framework7.min.js"></script>
