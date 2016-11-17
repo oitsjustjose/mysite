@@ -25,3 +25,18 @@ font-size: 11pt;
 .social-label{
   color: black;
 }
+
+
+.card-header-pic .card-header {
+  height: 65vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-top {
+  top: -45px;
+}
+
+.button {
+  margin-bottom: 8px;
+}
