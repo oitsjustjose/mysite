@@ -8,23 +8,22 @@
     <link rel="icon" type="image/png" href="https://github.com/alaypatel030/mysite/blob/master/img/Logo.png?raw=true">
     <title>Alay Patel</title>
     <!-- Path to Framework7 Library CSS-->
-    <link rel="stylesheet" href="css/framework7.ios.min.css">
-    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
   </head>
 <body>
 
 <!--Statusbar overlay on right add options-->
-  <div class="statusbar-overlay"></div>
+<div class="statusbar-overlay"></div>
   <div class="panel-overlay"></div>
-  <div class="panel panel-right panel-reveal">
+  <div class="panel panel-left panel-reveal">
     <div class="content-block">
-
 <!--buttons in the statusbar overlay-->
-<a href="index.html" class="button button-raised button-fill external">Home</a><br>
-<a href="achievement.html" class="button button-raised button-fill  external">2016 Achievement</a><br>
-<a href="#"   class="button button-raised button-fill external">Will Be Added</a><br>
+  <a href="index.html" class="button button-raised button-fill external color-purple">Home</a>
+  <a href="achievement.html" class="button button-raised button-fill  external">Achievements</a>
+  <a href="Will_Added.html"  class="button button-raised button-fill external">Will Be Added</a>
     </div>
   </div>
 
@@ -35,50 +34,41 @@
             <div data-page="home" class="page navbar-fixed toolbar-fixed">
                 <div class="navbar">
                     <div class="navbar-inner">
-                        <div class="right">
+                        <div class="left">
                           <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
                         </div>
-                          <div class="center">Achievements</div>
-                            <div class="right"></div>
+                          <div class="left">Achievements</div>
                    </div>
                 </div>
+<!--Page content-->
+  <div class="page-content hide-bars-on-scroll">
 
-                <!--Page content-->
-                <div class="page-content hide-bars-on-scroll">
-                      <img src="http://blog.utc.edu/engineering-computer-science/files/2016/11/Brogrammers-small-300x233.jpg" width="100%" height="auto"></img>
+<!--First Card-->
+  <div class="card card-header-pic card-top">
+    <div style="background-image:url(https://github.com/alaypatel030/mysite/blob/master/img/Create_A_Thon.jpg?raw=true)" valign="bottom" class="card-header color-white no-border">2016 Create-A-Thon Winners</div>
 
-                    <!--First Card-->
-                    <div class="card">
-                            <div class="list-block">
-                              <ul>
-                                <li>
-                                  <a href="http://blog.utc.edu/engineering-computer-science/2016/11/01/cecs-students-and-faculty-take-top-honors-during-2016-startup-week/" class="link external" target="_blank">
-                                    <div class="item-content">
-                                      <div class="item-inner">
-                                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRwUuDI3wN9o5PCeRpdGWGF4duwsdZszmWwiPYnJlXJskqfC4wzfXpV98M" width="30px" hight="30px"></img>
-                                        <div class="item-title social-label">Article Link</div>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
+        <div class="card-content">
+          <div class="card-content-inner">
+            <p class="color-black"></p>
+            <p>"CECS Students also took top honors during the app development component of Startup week. InfoSystems and Skuid presented a $10K scholarship to grand prize winners Alay Patel, Jose Stovall, Steven Hullander, and Evan Grayson, who are all juniors in the Computer Science and Engineering Department. The fifteen teams in the competition were tasked with creating a mobile app that allows consumers to digitally keep track of their physical conditions. The first and second place teams excelled in creating an inviting and intuitive UX/UI design, but the UTC “Brogrammers” took it a step further by adding a mini-game to their app." ~Holley Beeland</p>
+          </div>
+        </div>
 
-                    <div class="card">
-                      <center><div class="card-header hfont">Create-A-Thon Competition Winners</div></center>
-                      <center>
-                        <p class="hfont1"></p></center>
-                        <p class="hfont3"> "CECS Students also took top honors during the app development component of Startup week. InfoSystems and Skuid presented a $10K scholarship to grand prize winners Alay Patel, Jose Stovall, Steven Hullander, and Evan Grayson, who are all juniors in the Computer Science and Engineering Department. The fifteen teams in the competition were tasked with creating a mobile app that allows consumers to digitally keep track of their physical conditions. The first and second place teams excelled in creating an inviting and intuitive UX/UI design, but the UTC “Brogrammers” took it a step further by adding a mini-game to their app." ~Holley Beeland<p><br>
-                  </div>
+        <div class="card-footer">
+          <a href="https://github.com/oitsjustjose/Brogrammers" class="link external" target="_blank">GitHub Directory</a>
+          <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRwUuDI3wN9o5PCeRpdGWGF4duwsdZszmWwiPYnJlXJskqfC4wzfXpV98M" width="30px" hight="30px"></img>
+          <a href="http://blog.utc.edu/engineering-computer-science/2016/11/01/cecs-students-and-faculty-take-top-honors-during-2016-startup-week/" class="link external" target="_blank">Read More</a>
+        </div>
       </div>
     </div>
   </div>
+</div>
+</div>
+</div>
 
+<!-- Path to Framework7 Library JS-->
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<!-- Path to your app js-->
+<script type="text/javascript" src="js/my-app.js"></script>
 
-    <!-- Path to Framework7 Library JS-->
-    <script type="text/javascript" src="js/framework7.min.js"></script>
-    <!-- Path to your app js-->
-    <script type="text/javascript" src="js/my-app.js"></script>
-  </body>
 </html>

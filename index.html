@@ -8,23 +8,23 @@
       <link rel="icon" type="image/png" href="https://github.com/alaypatel030/mysite/blob/master/img/Logo.png?raw=true">
     <title>Alay Patel</title>
     <!-- Path to Framework7 Library CSS-->
-    <link rel="stylesheet" href="css/framework7.ios.min.css">
-    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
   </head>
 <body>
 
-<!--Statusbar overlay on right add options-->
+<!--Statusbar overlay on left add options-->
   <div class="statusbar-overlay"></div>
   <div class="panel-overlay"></div>
-  <div class="panel panel-right panel-reveal">
+  <div class="panel panel-left panel-reveal">
     <div class="content-block">
 
 <!--buttons in the statusbar overlay-->
-      <a href="index.html" class="button button-raised button-fill external">Home</a><br>
-      <a href="achievement.html" class="button button-raised button-fill  external">2016 Achievement</a><br>
-      <a href="#"   class="button button-raised button-fill external">Will Be Added</a><br>
+      <a href="index.html" class="button button-raised color-purple button-fill external">Home</a>
+      <a href="achievement.html" class="button button-raised button-fill  external">Achievements</a>
+      <a href="Will_Added.html"   class="button button-raised button-fill external">Will Be Added</a>
     </div>
   </div>
 
@@ -35,42 +35,48 @@
             <div data-page="home" class="page navbar-fixed toolbar-fixed">
                 <div class="navbar">
                     <div class="navbar-inner">
-                        <div class="right">
+                        <div class="left">
                           <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
                         </div>
-                          <div class="center">Home</div>
-                            <div class="right"></div>
+                          <div class="Right">Home</div>
+                            <div class="left"></div>
                    </div>
                 </div>
 
                 <!--Page content-->
                 <div class="page-content hide-bars-on-scroll">
-                      <img src="https://github.com/alaypatel030/mysite/blob/master/img/my_pic.jpg?raw=true" width="100%" height="auto"></img>
+                      <!-- <center><img src="https://github.com/alaypatel030/mysite/blob/master/img/my_pic.jpg?raw=true" width="80%" height="auto"></img></center> -->
 
                     <!--First Card-->
-                    <div class="card">
+                    <!-- <div class="card">
                       <div class="card-header hfont">Welcome To My Site</div>
                       <center>
                         <p class="hfont1">Site is currenly under construction</p>
                         <p class="hfont3">Feel Free to send ideas via instagram by accessing my social media link below.<p><br>
                         </center>
-                  </div>
+                  </div> -->
+
+
+                  <div class="card card-header-pic card-top">
+                    <div style="background-image:url(https://github.com/alaypatel030/mysite/blob/master/img/my_pic.jpg?raw=true)" valign="bottom" class="card-header color-white no-border">Alay Patel</div>
+
+                        <div class="card-content">
+                          <div class="card-content-inner">
+                            <p class="color-black"></p>
+                            <center>
+                            <h1>Site is currenly under construction</h1>
+                            <h4>Feel Free to send ideas via instagram by accessing my social media link below.</h4>
+                            <p>"Start by doing what is necessary; then do what's possible; and suddenly you are doing the impossible."- Francis of Assisi</p>
+                            </center>
+                          </div>
+                        </div>
+                      </div>
 
                   <!--Second Card with facebook and instagram link-->
-                  <div class="card">
+
+                  <div class="card card-top">
                           <div class="list-block">
                             <ul>
-                              <li>
-                                <a href="https://www.instagram.com/alaypatel030/" class="link external" target="_blank">
-                                  <div class="item-content">
-                                    <div class="item-inner">
-                                      <img src="https://github.com/alaypatel030/mysite/blob/master/img/images.png?raw=true" width="30px" hight="30px"></img>
-                                      <div class="item-title social-label">Instagram</div>
-                                    </div>
-                                  </div>
-                                </a>
-                              </li>
-
                               <li><a href="https://www.facebook.com/alaypatel030" class="link external" target="_blank">
                                 <div class="item-content">
                                   <div class="item-inner">
@@ -80,15 +86,29 @@
                                 </div>
                               </a>
                             </li>
+
+                            <li><a href="https://github.com/alaypatel030" class="link external" target="_blank">
+                              <div class="item-content">
+                                <div class="item-inner">
+                                  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEbIfR7--zYLqviVGTNOBdWUtvzfHrpN9kht0gZownRpyzRjIR" width="30px" hight="30px"></img>
+                                <div class="item-title social-label">GitHub Page</div>
+                                </div>
+                              </div>
+                            </a>
+
+                            <li>
+                              <a href="https://www.instagram.com/alaypatel030/" class="link external" target="_blank">
+                                <div class="item-content">
+                                  <div class="item-inner">
+                                    <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square1-128.png" width="30px" hight="30px"></img>
+                                    <div class="item-title social-label">Instagram</div>
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
                           </ul>
-                          </div>
+                        </div>
                       </div>
-
-                <!--empty block-->
-                <div class="list-block">
-                <br><br><br>
-              </div>
-
         </div>
       </div>
     </div>
