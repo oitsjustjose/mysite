@@ -17,10 +17,10 @@
 <body class="theme-teal">
 
 <!--Statusbar overlay on right add options-->
-<div class="statusbar-overlay"></div>
-  <div class="panel-overlay"></div>
-  <div class="panel panel-left panel-reveal">
-    <div class="content-block">
+<div class="m_statusbar-overlay"></div>
+  <div class="m_panel-overlay"></div>
+  <div class="m_panel panel-left panel-reveal">
+    <div class="m_content-block">
 <!--buttons in the statusbar overlay-->
   <a href="index.html" class="button button-raised button-fill external color-deeppurple">Home</a>
   <a href="achievement.html" class="button button-raised button-fill  external">Achievements</a>
@@ -108,5 +108,16 @@
 <script type="text/javascript" src="js/framework7.min.js"></script>
 <!-- Path to your app js-->
 <script type="text/javascript" src="js/my-app.js"></script>
-
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src="jquery.cookie.js"></script>
+<script>
+<!--
+if ($(window).width() < 700 && $.cookie('redirect')!="1"){
+  window.location = "m_index.html";
+}
+else{
+  window.location = "index.html";
+}
+</script>
+</body>
 </html>
